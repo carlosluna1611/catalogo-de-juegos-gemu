@@ -1,0 +1,179 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 mar. 2025, 12:52:07 p. m.
+    Author     : 33
+*/
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fuentes/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'MontserratBlack';
+  src: url('../fuentes/Montserrat-Black.ttf');
+}
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('../fuentes/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: 'MontserratThin';
+  src: url('../fuentes/Montserrat-Thin.ttf');
+}
+@font-face {
+  font-family: 'MontserratLight';
+  src: url('../fuentes/Montserrat-Light.ttf');
+}
+
+h1, h2, h3 {
+    font-family: 'MontserratBlack', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'MontserratBold', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+p{
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 1em;
+}
+
+body{
+    margin: 0;
+    padding-top: 100px;
+    background-color: #F1E5D7;
+}
+
+h1{
+    color: #486E51;
+}
+
+h1, p{
+    text-align: center;
+}
+
+.info{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+footer p{
+    padding: 15px;
+}
+
+header{
+    top: 0;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(180deg, #8D303CF6 30%, #8D303C00 150%);
+    transition-duration: 0.6s;
+    z-index: 1;
+}
+
+#logo{
+    vertical-align: middle;
+    width: 20%;
+    height: auto;
+}
+
+nav{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+header:hover{
+    background-color: #8D303C;
+    nav{
+        opacity: 1;
+    }
+    transition: 0.6s;
+}
+
+.barraNavegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.titulo{
+    font-family: 'MontserratBlack', sans-serif;
+    font-size: 3em;
+    color: white;
+}
+
+.gemu{
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.menu:hover{
+    color: #171b24;
+}
+
+.estructura img{
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 20px 20px -15px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+p{
+    padding: 0;
+    margin: 5px;
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+hr{
+}
+
+.estructura{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
