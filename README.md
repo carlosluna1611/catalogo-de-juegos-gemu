@@ -2,7 +2,7 @@
 
 Plataforma web completa diseñada para simular un sistema de comercio electrónico (e-commerce) enfocado en la venta de videojuegos. Este proyecto demuestra la integración de tecnologías frontend (HTML/CSS/JS) con un backend robusto en Java, utilizando Maven para la gestión de dependencias.
 
-<img src="screenshots/Interfaz.gif" alt="Interfaz Principal" width="700"/>
+<img src="graficos/Interfaz.gif" alt="Interfaz Principal" width="700"/>
 
 ## Funcionalidades Clave
 
@@ -26,7 +26,7 @@ Plataforma web completa diseñada para simular un sistema de comercio electróni
 ### Base de Datos
 * **Datos en Memoria:** Los objetos de los juegos se cargan directamente en las clases Java. **No requiere configuración de Base de Datos externa.**
 
-<img src="screenshots/Ejemplo Juego.png" alt="Interfaz Principal" width="700"/>
+<img src="graficos/Ejemplo Juego.png" alt="Interfaz Principal" width="700"/>
 
 ## Estructura del Proyecto
 
@@ -49,7 +49,7 @@ Para ejecutar esta aplicación web, necesitarás un servidor de aplicaciones (co
 
 Bash
 
-git clone [https://github.com/kevinmontilla/catalogo-de-juegos-gemu.git](https://github.com/kevinmontilla/catalogo-de-juegos-gemu.git)
+git clone [https://github.com/carlosluna1611/catalogo-de-juegos-gemu.git](https://github.com/carlosluna1611/catalogo-de-juegos-gemu.git)
 Configurar Base de Datos:
 
 #### Compilar y Empaquetar:
@@ -62,10 +62,3 @@ Utiliza Maven para construir el proyecto (generar el archivo .war):
 Tipo: Aplicación Web (Full Stack Demo).
 
 Estado: 🟢 Finalizado.
-
-## Autores
-
-<p style="font-size: 22px; font-family: 'Georgia', serif; line-height: 1.6;">
-  • <strong><a href="https://github.com/kevinmontilla">Kevin Montilla</a></strong><br>
-  • <strong><a href="https://github.com/carlosluna1611">Carlos Luna</a></strong>
-</p>
