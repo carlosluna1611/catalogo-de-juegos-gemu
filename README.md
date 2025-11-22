@@ -2,6 +2,8 @@
 
 Plataforma web completa diseñada para simular un sistema de comercio electrónico (e-commerce) enfocado en la venta de videojuegos. Este proyecto demuestra la integración de tecnologías frontend (HTML/CSS/JS) con un backend robusto en Java, utilizando Maven para la gestión de dependencias.
 
+<img src="screenshots/Interfaz.gif" alt="Interfaz Principal" width="700"/>
+
 ## Funcionalidades Clave
 
 * **Catálogo Interactivo:** Visualización dinámica de la lista de juegos, con detalles individuales y carátulas.
@@ -23,6 +25,8 @@ Plataforma web completa diseñada para simular un sistema de comercio electróni
 
 ### Base de Datos
 * **Datos en Memoria:** Los objetos de los juegos se cargan directamente en las clases Java. **No requiere configuración de Base de Datos externa.**
+
+<img src="screenshots/Ejemplo Juego.png" alt="Interfaz Principal" width="700"/>
 
 ## Estructura del Proyecto
 
